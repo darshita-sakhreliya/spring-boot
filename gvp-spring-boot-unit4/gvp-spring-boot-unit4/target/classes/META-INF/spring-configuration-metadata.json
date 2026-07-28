@@ -1,0 +1,51 @@
+{
+  "groups": [
+    {
+      "name": "app.jwt",
+      "type": "com.gvp.unit4.config.JwtProperties",
+      "sourceType": "com.gvp.unit4.config.JwtProperties"
+    },
+    {
+      "name": "app.security.seed",
+      "type": "com.gvp.unit4.config.SeedUserProperties",
+      "sourceType": "com.gvp.unit4.config.SeedUserProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.jwt.expiration-ms",
+      "type": "java.lang.Long",
+      "sourceType": "com.gvp.unit4.config.JwtProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "app.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.gvp.unit4.config.JwtProperties"
+    },
+    {
+      "name": "app.security.seed.admin-password",
+      "type": "java.lang.String",
+      "sourceType": "com.gvp.unit4.config.SeedUserProperties"
+    },
+    {
+      "name": "app.security.seed.admin-username",
+      "type": "java.lang.String",
+      "sourceType": "com.gvp.unit4.config.SeedUserProperties"
+    },
+    {
+      "name": "app.security.seed.user-password",
+      "type": "java.lang.String",
+      "sourceType": "com.gvp.unit4.config.SeedUserProperties"
+    },
+    {
+      "name": "app.security.seed.user-username",
+      "type": "java.lang.String",
+      "sourceType": "com.gvp.unit4.config.SeedUserProperties"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}

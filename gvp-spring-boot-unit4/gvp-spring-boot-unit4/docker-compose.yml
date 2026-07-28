@@ -1,0 +1,9 @@
+services:
+  gvp-unit4:
+    build: .
+    ports:
+      - "8081:8081"
+    environment:
+      JWT_SECRET: ${JWT_SECRET:KlwBNvmOALuitI6vCX7Vfwt+EDY/3acPMVNGouzWbeChRy8IMBFP2Fm+YXDsJhCW}
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:YOUR_CLIENT_ID}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET:YOUR_CLIENT_SECRET}
